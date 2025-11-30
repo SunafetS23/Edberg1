@@ -30,19 +30,30 @@ const projects = [
 ]
 
 export default function Projects() {
-  const ref = useRef(null)
+  // FIX 1: Add <HTMLElement> type to the ref
+  const ref = useRef<HTMLElement>(null)
   const [visibleCards, setVisibleCards] = useState<boolean[]>(new Array(projects.length).fill(false))
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry, index) => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setVisibleCards((prev) => {
-              const newState = [...prev]
-              newState[index] = true
-              return newState
-            })
+            // FIX 2: Get the specific index from the HTML attribute
+            // We use generic 'getAttribute' and convert it to a Number
+            const indexStr = entry.target.getAttribute("data-index")
+            
+            if (indexStr !== null) {
+              const index = Number(indexStr)
+              setVisibleCards((prev) => {
+                const newState = [...prev]
+                newState[index] = true
+                return newState
+              })
+              
+              // Optional: Stop observing once it's visible (for performance)
+              observer.unobserve(entry.target)
+            }
           }
         })
       },
@@ -51,6 +62,7 @@ export default function Projects() {
 
     const cards = ref.current?.querySelectorAll("[data-card]")
     cards?.forEach((card) => observer.observe(card))
+    
     return () => observer.disconnect()
   }, [])
 
@@ -68,6 +80,8 @@ export default function Projects() {
             <div
               key={index}
               data-card
+              // FIX 3: Pass the index here so the observer can read it
+              data-index={index}
               className={`group relative bg-card border border-border rounded-xl p-6 hover:shadow-xl hover:shadow-primary/20 transition-all duration-500 transform hover:-translate-y-2 cursor-pointer ${
                 visibleCards[index] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
