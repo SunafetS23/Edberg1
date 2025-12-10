@@ -1,15 +1,284 @@
-[00:00:00.787] Server  LOG     
-[00:00:00.787] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:00.788] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+[00:00:00.890] Server  LOG      ✓ Ready in 561ms
+[00:00:07.851] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.004] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:08.004] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:08.004] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765337102671}
+[00:05:36.007] Server  LOG      ✓ Compiled in 45ms
+[00:05:36.266] Server  LOG      ✓ Compiled in 37ms
+[00:05:36.388] Server  LOG      ✓ Compiled in 40ms
+[00:05:36.491] Server  LOG      ✓ Compiled in 48ms
+[00:05:36.577] Server  LOG      ✓ Compiled in 36ms
+[00:05:36.765] Server  LOG      ✓ Compiled in 34ms
+[00:05:52.254] Server  LOG      ✓ Compiled in 49ms
+[00:05:52.807] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
-[00:00:00.788] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:00.788] Server  LOG     
-[00:00:00.788] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+Check the render method of `Footer`. 
+[00:05:54.341] Server  LOG      ✓ Compiled in 47ms
+[00:06:06.427] Server  LOG      ✓ Compiled in 40ms
+[00:06:16.978] Server  LOG      ✓ Compiled in 40ms
+[00:06:17.267] Server  LOG      ✓ Compiled in 35ms
+[00:07:07.059] Server  LOG      ✓ Compiled in 58ms
+[00:07:11.442] Server  LOG      ✓ Compiled in 39ms
+[00:07:12.322] Server  LOG      ✓ Compiled in 42ms
+[00:07:15.246] Server  LOG      ✓ Compiled in 44ms
+[00:07:15.521] Server  LOG      ✓ Compiled in 51ms
+[00:07:18.462] Server  LOG      ✓ Compiled in 50ms
+[00:07:18.664] Server  LOG      ✓ Compiled in 38ms
+[00:07:19.338] Server  LOG      ✓ Compiled in 37ms
+[00:07:21.341] Server  LOG      ✓ Compiled in 38ms
+[00:07:21.820] Server  LOG      ✓ Compiled in 39ms
+[00:07:24.548] Server  LOG      ✓ Compiled in 37ms
+[00:07:44.069] Server  LOG      ✓ Compiled in 52ms
+[00:07:44.805] Browser ERROR   ./components/footer.tsx:10:13
+Parsing ecmascript source code failed
+   8 |       name: "LinkedIn",
+   9 |       href: "https://www.linkedin.com/in/edberg-947011308/",
+> 10 |       icon: ,
+     |             ^
+  11 |     },
+  12 |     {
+  13 |       name: "Email",
 
-[00:00:00.788] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:00.788] Server  LOG     
-[00:00:00.916] Server  LOG      ✓ Ready in 585ms
-[00:00:27.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:27.551] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:27.551] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:27.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764486211383}
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:56.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:56.659] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:56.659] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:56.659] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765337571328}
+[00:10:01.031] Server  LOG      ✓ Compiled in 47ms
+[00:10:09.385] Server  LOG      ✓ Compiled in 52ms
+[00:10:09.541] Server  LOG      ✓ Compiled in 43ms
+[00:10:10.364] Server  LOG      ✓ Compiled in 36ms
+[00:10:10.728] Server  LOG      ✓ Compiled in 42ms
+[00:10:10.954] Server  LOG      ✓ Compiled in 38ms
+[00:10:11.434] Server  LOG      ✓ Compiled in 49ms
+[00:10:11.542] Server  LOG      ✓ Compiled in 38ms
+[00:10:11.811] Server  LOG      ✓ Compiled in 35ms
+[00:10:12.060] Server  LOG      ✓ Compiled in 42ms
+[00:10:12.351] Server  LOG      ✓ Compiled in 38ms
+[00:10:12.639] Server  LOG      ✓ Compiled in 36ms
+[00:10:12.771] Server  LOG      ✓ Compiled in 36ms
+[00:10:12.946] Server  LOG      ✓ Compiled in 36ms
+[00:10:13.066] Server  LOG      ✓ Compiled in 41ms
+[00:10:15.134] Server  LOG      ✓ Compiled in 38ms
+[00:10:21.417] Server  LOG      ✓ Compiled in 50ms
+[00:10:23.187] Server  LOG      ✓ Compiled in 38ms
+[00:10:24.326] Server  LOG      ✓ Compiled in 39ms
+[00:10:24.429] Server  LOG      ✓ Compiled in 36ms
+[00:10:28.147] Server  LOG      ✓ Compiled in 42ms
+[00:10:28.291] Server  LOG      ✓ Compiled in 43ms
+[00:10:28.425] Server  LOG      ✓ Compiled in 37ms
+[00:10:28.686] Server  LOG      ✓ Compiled in 35ms
+[00:10:28.797] Server  LOG      ✓ Compiled in 34ms
+[00:10:28.985] Server  LOG      ✓ Compiled in 52ms
+[00:10:31.151] Server  LOG      ✓ Compiled in 46ms
+[00:10:31.229] Server  LOG      ✓ Compiled in 36ms
+[00:10:31.322] Server  LOG      ✓ Compiled in 36ms
+[00:10:31.529] Server  LOG      ✓ Compiled in 35ms
+[00:10:31.850] Server  LOG      ✓ Compiled in 41ms
+[00:10:31.973] Server  LOG      ✓ Compiled in 35ms
+[00:10:32.084] Server  LOG      ✓ Compiled in 38ms
+[00:10:32.471] Server  LOG      ✓ Compiled in 39ms
+[00:10:32.766] Server  LOG      ✓ Compiled in 37ms
+[00:10:32.962] Server  LOG      ✓ Compiled in 36ms
+[00:10:33.078] Server  LOG      ✓ Compiled in 35ms
+[00:10:33.203] Server  LOG      ✓ Compiled in 36ms
+[00:10:53.427] Server  LOG      ✓ Compiled in 40ms
+[00:10:54.249] Server  LOG      ✓ Compiled in 37ms
+[00:10:54.587] Server  LOG      ✓ Compiled in 44ms
+[00:10:55.024] Server  LOG      ✓ Compiled in 72ms
+[00:10:55.136] Server  LOG      ✓ Compiled in 39ms
+[00:10:55.230] Server  LOG      ✓ Compiled in 36ms
+[00:10:55.310] Server  LOG      ✓ Compiled in 38ms
+[00:10:55.486] Server  LOG      ✓ Compiled in 38ms
+[00:11:02.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:03.127] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:03.128] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:11:03.128] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765337757799}
+[00:11:10.150] Server  LOG      ✓ Compiled in 41ms
+[00:14:18.125] Server  LOG      ✓ Compiled in 97ms
+[00:14:20.773] Server  LOG      ✓ Compiled in 42ms
+[00:14:21.082] Server  LOG      ✓ Compiled in 40ms
+[00:14:21.286] Server  LOG      ✓ Compiled in 36ms
+[00:14:21.672] Server  LOG      ✓ Compiled in 38ms
+[00:14:22.773] Server  LOG      ✓ Compiled in 36ms
+[00:14:23.068] Server  LOG      ✓ Compiled in 34ms
+[00:14:23.397] Server  LOG      ✓ Compiled in 36ms
+[00:14:29.871] Server  LOG      ✓ Compiled in 37ms
+[00:14:45.088] Server  LOG      ✓ Compiled in 36ms
+[00:15:28.346] Server  LOG      ✓ Compiled in 93ms
+[00:15:28.803] Browser ERROR   ./components/hero.tsx:27:10
+Parsing ecmascript source code failed
+  25 |   return (
+  26 |     {/* Added pb-32 to push the visual center upwards */}
+> 27 | <section className="min-h-screen flex items-center justify-center pt-20 pb-32 relative overflow-hidden">
+     |          ^^^^^^^^^
+  28 |       {/* Background animation */}
+  29 |       <div className="absolute inset-0 overflow-hidden">
+  30 |         <div className="absolute w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float top-20 left-10" />
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:32.809] Browser ERROR   ./components/hero.tsx:27:12
+Parsing ecmascript source code failed
+  25 |   return (
+  26 |     {/* Added pb-32 to push the visual center upwards */}
+> 27 |   <section className="min-h-screen flex items-center justify-center pt-20 pb-32 relative overflow-hidden">
+     |            ^^^^^^^^^
+  28 |       {/* Background animation */}
+  29 |       <div className="absolute inset-0 overflow-hidden">
+  30 |         <div className="absolute w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float top-20 left-10" />
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:32.809] Browser ERROR   ./components/hero.tsx:27:14
+Parsing ecmascript source code failed
+  25 |   return (
+  26 |     {/* Added pb-32 to push the visual center upwards */}
+> 27 |     <section className="min-h-screen flex items-center justify-center pt-20 pb-32 relative overflow-hidden">
+     |              ^^^^^^^^^
+  28 |       {/* Background animation */}
+  29 |       <div className="absolute inset-0 overflow-hidden">
+  30 |         <div className="absolute w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float top-20 left-10" />
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:33.814] Browser ERROR   ./components/hero.tsx:27:16
+Parsing ecmascript source code failed
+  25 |   return (
+  26 |     {/* Added pb-32 to push the visual center upwards */}
+> 27 |       <section className="min-h-screen flex items-center justify-center pt-20 pb-32 relative overflow-hidden">
+     |                ^^^^^^^^^
+  28 |       {/* Background animation */}
+  29 |       <div className="absolute inset-0 overflow-hidden">
+  30 |         <div className="absolute w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float top-20 left-10" />
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:15:35.997] Server  LOG      ✓ Compiled in 42ms
+[00:15:48.996] Server  LOG      ✓ Compiled in 53ms
+[00:17:09.195] Server  LOG      ✓ Compiled in 90ms
+[00:17:14.619] Server  LOG      ✓ Compiled in 94ms
+[00:17:16.142] Server  LOG      ✓ Compiled in 80ms
+[00:17:19.660] Server  LOG      ✓ Compiled in 34ms
+[00:17:19.778] Server  LOG      ✓ Compiled in 69ms
+[00:17:22.975] Server  LOG      ✓ Compiled in 53ms
+[00:17:23.788] Server  LOG      ✓ Compiled in 71ms
+[00:17:26.811] Server  LOG      ✓ Compiled in 40ms
+[00:17:26.965] Server  LOG      ✓ Compiled in 77ms
+[00:17:54.427] Server  LOG      ✓ Compiled in 48ms
+[00:17:54.710] Server  LOG      ✓ Compiled in 38ms
+[00:17:55.624] Server  LOG      ✓ Compiled in 42ms
+[00:17:55.880] Server  LOG      ✓ Compiled in 50ms
+[00:17:55.881] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:17:55.881] Browser ERROR   Image is missing required "src" property: <img>
+[00:17:55.958] Server  LOG      ✓ Compiled in 46ms
+[00:17:57.577] Server  LOG      ✓ Compiled in 51ms
+[00:17:58.702] Server  LOG      ✓ Compiled in 53ms
+[00:17:59.240] Server  LOG      ✓ Compiled in 41ms
+[00:18:02.493] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:02.693] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:02.693] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:02.693] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765338177365}
+[00:21:25.109] Server  LOG      ✓ Compiled in 43ms
+[00:21:25.276] Server  LOG      ✓ Compiled in 43ms
+[00:21:53.095] Server  LOG      ✓ Compiled in 41ms
+[00:22:08.060] Server  LOG      ✓ Compiled in 40ms
+[00:22:13.341] Server  LOG      ✓ Compiled in 39ms
+[00:22:13.823] Browser ERROR   ./components/about.tsx:69:64
+Parsing ecmascript source code failed
+  67 |               <div className="relative bg-card border border-border rounded-2xl p-8 overflow-hidden">
+  68 |                 <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+> 69 |                   <Image src="{profilePic} alt="Profile Picture" fill className="object-cover" />
+     |                                                                ^^^^^^^^^^^^^^^^^^
+  70 |                 </div>
+  71 |               </div>
+  72 |             </div>
+
+Expected '</', got 'string literal ( fill className=, " fill className=")'
+
+Import traces:
+  Client Component Browser:
+    ./components/about.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/about.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:56.802] Server  LOG      ✓ Compiled in 39ms
+[00:22:59.461] Server  LOG      ✓ Compiled in 45ms
+[00:22:59.812] Browser ERROR   ./components/footer.tsx:34:48
+Parsing ecmascript source code failed
+  32 |             <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
+  33 |             <div className="space-y-2">
+> 34 |               {["About", "Projects", "Skills", "].map((item) => (
+     |                                                ^^^^^^^^^^^^^^^^^^
+  35 |                 <a
+  36 |                   key={item}
+  37 |                   href={`#${item.toLowerCase()}`}
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:23:17.816] Server  LOG      ✓ Compiled in 63ms

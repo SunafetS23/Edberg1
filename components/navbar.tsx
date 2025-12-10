@@ -14,7 +14,6 @@ export default function Navbar({ scrolled }: NavbarProps) {
     { label: "About", href: "#about" },
     { label: "Projects", href: "#projects" },
     { label: "Skills", href: "#skills" },
-    { label: "Contact", href: "#contact" },
   ]
 
   return (
@@ -29,7 +28,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
             href="#"
             className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
           >
-            Portfolio
+            Edberg
           </Link>
 
           {/* Desktop Menu */}
@@ -45,7 +44,6 @@ export default function Navbar({ scrolled }: NavbarProps) {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden p-2">
             <div className="w-6 h-6 flex flex-col justify-center gap-1.5">
               <span

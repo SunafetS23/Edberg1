@@ -4,20 +4,20 @@ import { useEffect, useRef, useState } from "react"
 
 const skillCategories = [
   {
+    category: "Languages",
+    skills: ["JavaScript", "Python", "Java", "C", "SQL"],
+  },
+  {
     category: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
+    skills: ["HTML/CSS", "Tailwind CSS", "Responsive Design", "React"],
   },
   {
-    category: "Backend",
-    skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs"],
-  },
-  {
-    category: "AI/ML",
-    skills: ["Machine Learning", "TensorFlow", "Python", "Data Analysis", "NLP"],
+    category: "Design",
+    skills: ["Figma", "Axure", "User Experience Design"],
   },
   {
     category: "Tools",
-    skills: ["Git", "Docker", "AWS", "Firebase", "Vercel"],
+    skills: ["Google Document", "Canva", "RPG Maker"],
   },
 ]
 
@@ -45,7 +45,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-            Skills & Expertise
+            Skills
           </span>
         </h2>
 

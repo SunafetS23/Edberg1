@@ -1,6 +1,8 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import Image from "next/image"
+import profilePic from "../assets/profile-pic.jpg"
 
 export default function About() {
   const ref = useRef(null)
@@ -34,12 +36,12 @@ export default function About() {
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
             }`}
           >
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-foreground/80 leading-relaxed text-justify">
               I'm a passionate computer science student dedicated to creating elegant and efficient solutions to complex
               problems. With a strong foundation in software development, I specialize in full-stack web development and
               AI applications.
             </p>
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-foreground/80 leading-relaxed text-justify">
               My journey in tech has taught me the importance of clean code, user-centered design, and continuous
               learning. I thrive in collaborative environments and love contributing to open-source projects.
             </p>
@@ -62,13 +64,9 @@ export default function About() {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl blur-2xl animate-glow" />
-              <div className="relative bg-card border border-border rounded-2xl p-8">
-                <div className="space-y-6">
-                  <div className="h-32 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg" />
-                  <div>
-                    <div className="h-4 bg-muted rounded w-3/4 mb-3" />
-                    <div className="h-4 bg-muted rounded w-1/2" />
-                  </div>
+              <div className="relative bg-card border border-border rounded-2xl p-8 overflow-hidden">
+                <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                  <Image src={profilePic} alt="Profile Picture" fill className="object-cover" />
                 </div>
               </div>
             </div>
